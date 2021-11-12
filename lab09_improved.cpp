@@ -24,7 +24,7 @@ MathVector MathVector::add(const MathVector& v){
     return MathVector(x,y);
 }
 
-MathVector MathVector::mult(int a){
+MathVector MathVector::mult(const int& a){
     x = x*a;
     y = y*a;
     return MathVector(x,y);
